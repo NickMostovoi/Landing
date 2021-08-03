@@ -1,0 +1,43 @@
+body {
+  overflow: scroll;
+  overflow-x: hidden;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #010101;
+
+  font-family: "Roboto Slab", serif;
+}
+
+// .nav-link {
+//   color: red !important;
+// }
+
+.test {
+  background-color: #e2e2e2;
+  height: 100vh;
+  
+}
+
+.test-2 {
+  background-color: #e7b7b7;
+  height: 200px;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.logo-main {
+    margin: 25px;
+    background-color: black;
+    height: 80px;
+    width: 80px;
+
+}
+
