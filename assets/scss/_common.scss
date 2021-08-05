@@ -172,7 +172,7 @@ html {
 }
 
 body {
-  color: #545454;
+  // color: #545454;
 
   font-family: "Roboto", sans-serif;
 }
@@ -223,9 +223,7 @@ a:focus {
   font-size: 1.75rem;
 }
 
-.about__item {
-  margin-bottom: 30px;
-}
+
 
 .features {
   background-color: #e5e5e5;
@@ -518,19 +516,9 @@ a:focus {
   color: #fefefe;
 }
 
-.footer__top {
-  padding-top: 45px;
-  padding-bottom: 30px;
 
-  background-color: #282828;
-}
 
-.footer__bottom {
-  padding-top: 30px;
-  padding-bottom: 30px;
 
-  background-color: #343434;
-}
 
 @media (min-width: 576px) {
   .gallery .container-fluid {
