@@ -12,6 +12,7 @@
 
 .footer ul {
   padding-left: 30px;
+
   list-style: none;
 }
 
@@ -21,9 +22,13 @@
 
 .footer li::before {
   position: absolute;
+
   margin-left: -30px;
+
   content: "\f30b";
+
   color: #b2b2b2;
+
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
@@ -42,17 +47,17 @@
 }
 
 .footer__top {
-  margin-left: 17%;
-
+  margin-left: 16%;
   padding-top: 45px;
   padding-bottom: 30px;
+
   background-color: #282828;
 }
 
 .footer__bottom {
-  margin-left: 17%;
-
+  margin-left: 16%;
   padding-top: 20px;
   padding-bottom: 20px;
+
   background-color: #343434;
 }

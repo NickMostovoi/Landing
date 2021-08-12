@@ -13,19 +13,23 @@
 
 .blog-item__image {
   overflow: hidden;
+
   padding: 0;
 }
 
 .blog-item__image img {
   width: 100%;
+
   transition: filter 0.5s, transform 0.5s;
 }
 
 .blog-item__post {
   position: relative;
   z-index: 0;
+
   padding-top: 15px;
   padding-bottom: 15px;
+
   background-color: #fefefe;
 }
 
@@ -36,24 +40,29 @@
   right: 0;
   bottom: 0;
   left: 0;
+
   content: "";
   transition: background-color 0.25s;
 }
 
 .blog-item__date {
   margin: 15px 0;
+
   color: #6e6e6e;
+
   font-size: 0.875rem;
 }
 
 .blog-item__excerpt {
   color: #545454;
+
   font-size: 0.875rem;
 }
 
 .blog-item__link:hover .blog-item__image img,
 .blog-item__link:focus .blog-item__image img {
   transform: scale(1.25);
+
   filter: saturate(1.5);
 }
 

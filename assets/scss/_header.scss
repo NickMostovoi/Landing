@@ -1,13 +1,57 @@
 .logo {
-  background-color: lightgray;
-  height: 100vh;
-  padding-left: 20px;
   position: fixed;
   z-index: 999;
+
+  height: 100vh;
+  padding-left: 30px;
+
+  background-color: lightgray;
 }
 
 .logo-main {
-  margin: 25px;
-  height: 90px;
   width: 90px;
+  height: 90px;
+  margin: 25px;
+}
+
+.header-navbar .nav-link::after {
+  position: absolute;
+  bottom: 0;
+
+  height: 0;
+
+  content: "";
+
+  opacity: 0;
+  background-color: #fefefe;
+}
+
+.header-navbar .nav-item:not(.active):hover .nav-link::after,
+.header-navbar .nav-item:not(.active):focus .nav-link::after {
+  height: 3px;
+
+  transition: bottom 0.5s, opacity 0.5s;
+
+  opacity: 1;
+}
+
+.header-navbar .nav-link {
+  position: relative;
+
+  overflow: hidden;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+
+  color: #fefefe;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(254, 254, 254, 0.75);
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
