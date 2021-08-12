@@ -1,0 +1,33 @@
+.features-fluid {
+  margin-left: 17%;
+}
+
+.features {
+  background-color: #e5e5e5;
+}
+
+.feature {
+  margin-bottom: 7.5px;
+  padding-top: 7.5px;
+}
+
+.feature__title {
+  text-align: center;
+}
+
+.feature__description {
+  text-align: center;
+}
+
+.feature__icon {
+  display: flex;
+  width: 80px;
+  height: 90px;
+  margin: 30px auto 60px;
+  color: #ffffff;
+  background: #ee3b24;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
